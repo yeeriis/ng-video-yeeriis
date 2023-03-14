@@ -1,0 +1,36 @@
+.theme-toggle {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+  
+    i {
+      &.fa-sun-o {
+        color: #ffc107;
+        transform: rotate(-20deg);
+        transition: transform 0.5s;
+        &.dark-theme {
+          color: #444;
+          transform: rotate(20deg);
+        }
+      }
+  
+      &.fa-moon-o {
+        color: #007bff;
+        transition: transform 0.5s;
+        &.dark-theme {
+          color: #ddd;
+          transform: rotate(-20deg);
+        }
+      }
+    }
+  
+    &:hover {
+      i {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  

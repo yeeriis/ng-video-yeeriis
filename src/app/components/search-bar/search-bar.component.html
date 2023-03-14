@@ -1,0 +1,7 @@
+<div class="search-container">
+    <img src="assets/logo.svg" height="100px" width="100px" class="logo-animated"/>
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <input class="search-input" name="search" ngModel placeholder="Search 500,000+ games"/>
+        <button class="search-button">Search</button>
+    </form>
+</div>

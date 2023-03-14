@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+// ESTILS AFEGITS 1
+
+body {
+    font-family: Roboto, "Helvetia Neue", sans-serif;
+    background-color: #FFF;
+    padding-top: 60px;
+    height: 100%
+}
+
+body * {
+    font-family: Roboto, "Helvetia Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
